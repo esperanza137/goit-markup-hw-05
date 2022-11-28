@@ -153,7 +153,8 @@ ul {
 
 .top-mail-tel-tel:hover,
 .top-mail-tel-mail:hover,
-.top-mail-tel-mail:focus .top-mail-tel-tel:focus {
+.top-mail-tel-mail:focus
+.top-mail-tel-tel:focus {
   color: var(--selection-color);
   stroke: var(--selection-color);
   transition-property: color, stroke;
@@ -207,6 +208,7 @@ ul {
   border-radius: 4px;
   padding: 10px 41px;
   cursor: pointer;
+  border: none;
 }
   
 
