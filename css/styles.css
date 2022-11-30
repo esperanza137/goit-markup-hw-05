@@ -165,6 +165,7 @@ ul {
 .top-mail-tel-tel:focus svg {
   fill: var(--selection-color);
 }
+/* =================BODY======================= */
 
 .title-background {
   background-image: linear-gradient(
@@ -215,7 +216,6 @@ ul {
   border: none;
 }
   
-
 .description {
   display: flex;
   gap: 30px;
@@ -524,7 +524,7 @@ ul.bottom-mail-tel {
   border-radius: 4px;
 }
 
-ul.portfolio {
+.portfolio-cards {
   list-style-type: none;
   display: flex;
   gap: 30px;
@@ -552,7 +552,7 @@ img {
   letter-spacing: 0.03em;
   color: var(--secondary-bacground-color);
 }
-.portfolio-cards {
+.portfolio-card {
   background: #ffffff;
   flex-basis: calc((100% - 60px) / 3);
   overflow: hidden;
@@ -561,8 +561,8 @@ img {
   transition-timing-function: cubic-bezier(0.4,0,0.2,1);
   }
   
-.portfolio-cards:hover,
-.portfolio-cards:focus {
+.portfolio-card:hover,
+.portfolio-card:focus {
     cursor: pointer;
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
@@ -641,6 +641,13 @@ img {
   border-radius: 50%;
   cursor: pointer;
 }
+
+.close-btn-icon{
+  all: unset;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+   }
 
 .is-hidden{
   opacity: 0;
